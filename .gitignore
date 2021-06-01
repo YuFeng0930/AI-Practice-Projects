@@ -1,0 +1,12 @@
+*/*/__pycache__
+
+requirements.txt
+
+*/*/assets
+
+*.csv
+*.pyc
+*.ttf
+
+*.in
+*.out
