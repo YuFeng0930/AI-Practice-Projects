@@ -20,7 +20,6 @@ knowledge0 = And(
     Implication(AKnave, Not(And(AKnight, AKnave)))
 )
 
-
 # Puzzle 1
 knowledge1 = And(
     # Game setting
@@ -30,8 +29,8 @@ knowledge1 = And(
     Not(And(BKnight, BKnave)),
 
     # A says "We are both knaves."
-    Implication(AKnight, And(AKnave, BKnight)),
-    Implication(AKnave, Not(And(AKnave, BKnight)))
+    Implication(AKnight, And(AKnave, BKnave)),
+    Implication(AKnave, Not(And(AKnave, BKnave)))
 )
 
 # Puzzle 2
